@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scala_homework.iml" filepath="$PROJECT_DIR$/.idea/modules/scala_homework.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scala_homework-build.iml" filepath="$PROJECT_DIR$/.idea/modules/scala_homework-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sparkOnMac.iml" filepath="$PROJECT_DIR$/.idea/modules/sparkOnMac.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sparkOnMac-build.iml" filepath="$PROJECT_DIR$/.idea/modules/sparkOnMac-build.iml" />
     </modules>
   </component>
 </project>

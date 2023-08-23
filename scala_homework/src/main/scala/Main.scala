@@ -13,8 +13,9 @@ class Quiz1() extends Quiz[(Int,Int),List[String]]{
 class Quiz2() extends Quiz[Array[Int],Int]{
 
   override def doit(n: Int): Array[Int] = {
-    if (n<1) return Array[Int]()
-    else if(n==1) return Array(0)
+// match
+    if (n < 1) return Array[Int]()
+    else if (n == 1) return Array(0)
     var anw = Array(0,1)
     for (num<-(2 until n)) {
       anw = anw :+ (anw.apply(num-2)+ anw.apply(num-1))
@@ -71,7 +72,7 @@ object Main {
         new_mat
       }
     }
-    Matrix(Row(1, 2), Row(1, 2)) * Matrix(Row(1, 1), Row(1, 1))
+
 
   }
 }
